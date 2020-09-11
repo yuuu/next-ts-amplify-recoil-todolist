@@ -34,11 +34,11 @@ const TodosIndex = () => {
 
   return (
     <>
-			<Grid container direction="column" spacing={2}>
-				<Grid item md={6}>
+      <Grid container direction="column" spacing={2}>
+        <Grid item md={6}>
           <h1>Todos</h1>
         </Grid>
-				<Grid item md={6}>
+        <Grid item md={6}>
           <Link href="/todos/new">
             <Button component="a" variant="contained" color="primary">
               New
